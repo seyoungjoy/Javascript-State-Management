@@ -14,6 +14,27 @@
 // - [ ] 확인 버튼을 클릭하면 메뉴가 삭제된다.
 // - [ ] 총 메뉴 갯수를 count 하여 상단에 보여준다.
 
+// TODO localStorage Read & Write
+// - [ ] localStorage에 데이터를 저장한다
+// - [ ] localstorage에 있는 데이터를 읽어온다.
+
+// TODO 카테고리별 메뉴판 관리
+// - [ ] 에스프레소 메뉴판 관리
+// - [ ] 프라푸치노 메뉴판 관리
+// - [ ] 블렌디드 메뉴판 관리
+// - [ ] 티바나 메뉴판 관리
+// - [ ] 디저트 메뉴판 관리
+
+// TODO 페이지 접근시 최최 데이터 READ & Rendering
+// - [ ] 페이지에 최초로 로딩될때 localStorage에 에스프레소 메뉴를 읽어온다.
+// - [ ] 에스프레소 메뉴를 페이지에 그려준다.
+
+// TODO 품절 상태 관리
+// - [ ] 품절 상태인 경우를 보여줄 수 있게, 품절 버튼을 추가하고 sold-out class를 추가하여 상태를 변경한다.
+// - [ ] 품절 버튼을 추가한다.
+// - [ ] 품절 버튼을 클릭하면 localStorage에 상태값이 저장된다.
+// - [ ] 클릭이벤트에서 가장 가까운 li태그의 class속성 값에 sold-out을 추가한다.
+
 const $ = (selector) => document.querySelector(selector);
 
 function App() {
